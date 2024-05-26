@@ -1,0 +1,308 @@
+/* Body */
+body {
+  background-image: url('foto/DefinitiefAchtergrondGIPBlog.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Footer */
+.footer-area {
+  background-color: #212529;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.single-footer-widget {
+  margin-bottom: 30px;
+}
+
+.single-footer-widget h4 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.single-footer-widget ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.single-footer-widget ul li {
+  margin-bottom: 10px;
+}
+
+.single-footer-widget ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.single-footer-widget ul li a:hover {
+  color: #ccc;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  color: #ccc;
+}
+
+/* Header */
+header.d-flex.flex-column div.container.mt-3 ul.nav.nav-tabs li.nav-item a.nav-link:hover {
+  color: #ccc;
+}
+
+.header-text a:hover {
+  color: #ccc;
+}
+
+.container h2 {
+  color: #fff;
+}
+
+/* Links */
+a {
+  color: #fff;
+}
+
+a:not(.my-class) {
+  color: #fff;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+/* Cards */
+.card {
+  margin: 20px;
+  padding: 20px;
+}
+
+.card-background {
+  background-size: cover;
+  background-position: center;
+}
+
+.card-background .card-body {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+/* Cards for months */
+.month-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.month {
+  width: 40%;
+  margin: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: rgba(200, 200, 200, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.month img {
+  height: 250px;
+  width: 100%;
+  object-fit: contain; 
+  max-width: 100%;
+  border-radius: 10px 10px 0 0; 
+}
+
+.month-body {
+  padding: 20px;
+}
+
+.month-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.month-text {
+  font-size: 14px;
+  color: #fff;
+}
+
+.month-date {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 10px;
+  opacity: 0.5}
+
+/* CSS for Beschrijving.html */
+.description-container {
+  background-color: rgba(128, 128, 128, 0.2); /* gray with 0.2 transparency */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 67%; 
+  margin: 40px auto;
+}
+
+.description-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff; 
+  margin-bottom: 20px;
+}
+
+/* CSS for Blockschema.html */
+.blockschema-container {
+  background-color: rgba(128, 128, 128, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 75%;
+  margin: 40px auto;
+  color: white;
+}
+.blockschema-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* CSS for Datasheet.html */
+.datasheet-card {
+  background-color: rgba(128, 128, 128, 0.2); /* gray background with 0.2 transparency */
+  color: #FFFFFF; 
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.datasheet-card iframe {
+  width: 100%;
+  height: 800px; 
+  border: none;
+}
+
+/* CSS for Prijsraming.html (tabel) */
+/* Style the table */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+/* Style the table headers */
+.table thead th {
+  background-color: #f0f0f0;
+  border-bottom: 2px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Style the table cells */
+.table tbody td {
+  padding: 10px;
+  text-align: left;
+  border-top: 1px solid #ddd;
+}
+
+/* Style the total row */
+.table tbody tr.total {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+/* Style the total cell */
+.table tbody tr.total td {
+  border-top: 2px solid #ddd;
+}
+
+/* Remove border from the last row */
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* CSS for Software.html */
+.software {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.software .card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+  background-color: transparent; /* remove background color */
+  margin-bottom: 20px;
+}
+
+.software .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.software .card-title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff; 
+}
+
+/* CSS for Planning.html */
+.planning-container {
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.2); 
+    border-radius: 10px;
+    color: #fff;
+    margin: 40px auto;
+}
+
+.planning-container .list-group-item {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: rgba(51, 51, 51, 0.4); 
+    color: #fff;
+}
+
+/* Titels,(h1) veranderen naar dezelfde opmaak */
+.container h1, .description-container h1, .blockschema-container h1, .datasheet-card h1, .planning-container h1, .software .title, .software-container h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Width van iframe (error) oplossing -> */
+.full-width {
+  width: 100%;
+}
+
+/* Media query for small screens */
+@media (max-width: 767px) {
+  body {
+    background-attachment: scroll;
+  }
+    .month{
+        width: 100%;
+    }
+}
+
